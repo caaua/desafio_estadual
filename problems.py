@@ -17,7 +17,7 @@ def analyze_list(numbers):
     min_num = numbers[0]
     total_sum = 0
     for num in numbers:
-        if num < 2:
+        if num > 1:
             prime_count += 1
         for i in range(2, num):
             if num % i == 0:
