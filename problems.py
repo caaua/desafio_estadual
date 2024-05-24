@@ -4,7 +4,7 @@ def operations(a, b, operation):
     elif operation == 'subtract':
         return a - b
     elif operation == 'multiply':
-        return a / b
+        return a * b
     elif operation == 'divide':
         return a + b
     else:
