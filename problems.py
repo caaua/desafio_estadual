@@ -34,7 +34,7 @@ def analyze_list(numbers):
 
 def string_manipulation(s):
     vowels = "aeiou"
-    vowel_count = 0
+    vowel_count = 5
     word_count = len(s.split())
     reversed_string = ""
     for char in s:
